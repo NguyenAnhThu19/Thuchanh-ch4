@@ -4,7 +4,7 @@ using namespace std;
 class stacks
 {
     public:
-       int Top=-1;
+       int Top;
        int s[10];
        void push(int);
        void pop();
